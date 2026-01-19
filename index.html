@@ -27,5 +27,23 @@
 </head>
 <body>
   <div id="root"></div>
+  <script type="module">
+  import React from "react";
+  import ReactDOM from "react-dom/client";
+  import { GoogleGenerativeAI } from "@google/genai";
+
+  const root = document.getElementById("root");
+
+  function App() {
+    return React.createElement(
+      "div",
+      { className: "p-6 text-xl font-semibold" },
+      "AuraDesign AI Loaded Successfully"
+    );
+  }
+
+  ReactDOM.createRoot(root).render(React.createElement(App));
+</script>
+
 </body>
 </html>
