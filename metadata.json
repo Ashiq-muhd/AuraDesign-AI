@@ -1,0 +1,7 @@
+{
+  "name": "AuraDesign AI",
+  "description": "An AI-powered interior design and organization assistant that analyzes your room photos, suggests improvements, and generates reimagined spaces with custom elements.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
